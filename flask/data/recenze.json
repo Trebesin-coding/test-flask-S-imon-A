@@ -6,5 +6,9 @@
     {
         "login": "test",
         "recenze": "test recenze"
+    },
+    {
+        "login": "jmeno",
+        "recenze": "recenze"
     }
 ]
