@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="static/form.css">
+    </head>
+    <body>
+        <form method="post" action="/form">
+            <h1>Recenze</h1>
+
+            <label for="login">Uživatel: </label>
+            <input type="text" placeholder="Jméno" id="login" name="login">
+
+            <label for="recenze">Recenze: </label>
+            <input type="text" placeholder="Napiš recenzi" name="recenze" id="recenze">
+
+            <button>Odeslat</button>
+
+            <p>Recenze uživatele: {{ recenze }} </p> 
+        </form>
+    </body>
+</html>
