@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: blue;
+    transition: all 0.1s;
+}
+a:hover {
+    scale: 1.05;
+}
+a:active {
+    scale: 0.95;
+}

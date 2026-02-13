@@ -1,4 +1,60 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 50px 100px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+label {
+    font-size: 1.5rem;
+    color: rgb(14, 0, 136);
+}
+
+input {
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px 10px;
+    border: 2px solid rgb(14, 0, 136);
+    transition: all 0.1s;
+}
+input:focus {
+    outline: 2px solid blue;
+}
+
+button {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    background-color: blue;
+    color: lightblue;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+button:hover {
+    scale: 1.05;
+}
+button:active {
+    scale: 0.95;
+}
+
 h1 {
-    color: green;
+    color: rgb(14, 0, 136);
     font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(14, 0, 136);
 }
